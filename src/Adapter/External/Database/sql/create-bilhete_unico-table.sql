@@ -1,0 +1,7 @@
+CREATE TABLE BILHETE_UNICO(
+    numero INTEGER NOT NULL,
+    cpf VARCHAR(11) NOT NULL,
+    saldo INTEGER NOT NULL,
+    valor INTEGER NOT NULL,
+    PRIMARY KEY (cpf)
+);
